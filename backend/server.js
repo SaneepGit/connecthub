@@ -14,7 +14,7 @@ connectDB();
 const app = express();
 
 // Middleware
-
+//cors
 const corsOptions = {
   origin: 'https://connect-indol-ten.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
